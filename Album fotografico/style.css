@@ -27,10 +27,9 @@ header {
     background-color: white;
 }
 
-/*Se togli completamente questa classe, il comportamento resta lo stesso*/
 .add {
     position: absolute;
-    top: 30vh;
+    top: 3vh;
 }
 
 .title, .expl {
@@ -43,9 +42,7 @@ header {
 }
 
 main {
-    height: 75vh; /*Non cambia se togli*/
     margin-top: 5vh;
-    background-color: white; /*Non cambia se togli*/
 }
 
 .preview {
