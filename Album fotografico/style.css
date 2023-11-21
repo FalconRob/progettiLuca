@@ -27,9 +27,10 @@ header {
     background-color: white;
 }
 
+/*Se togli completamente questa classe, il comportamento resta lo stesso*/
 .add {
     position: absolute;
-    top: 3vh;
+    top: 30vh;
 }
 
 .title, .expl {
@@ -42,9 +43,9 @@ header {
 }
 
 main {
-    height: 75vh;
+    height: 75vh; /*Non cambia se togli*/
     margin-top: 5vh;
-    background-color: white;
+    background-color: white; /*Non cambia se togli*/
 }
 
 .preview {
@@ -68,6 +69,7 @@ img {
     color: darkgrey;
 }
 
+/*Se togli completamente questa classe, il comportamento resta lo stesso*/
 .clearfix {
     clear: both;
     display: table;
