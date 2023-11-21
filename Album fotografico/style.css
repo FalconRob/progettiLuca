@@ -27,6 +27,11 @@ header {
     background-color: white;
 }
 
+.add {
+    position: absolute;
+    top: 3vh;
+}
+
 .title, .expl {
     position: absolute;
     bottom: 0;
