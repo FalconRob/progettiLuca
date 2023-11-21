@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.mainfield {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: red;
+}
+
+.first {
+    background-image: url(https://imagedelivery.net/wKQ19LTSBT0ARz08tkssqQ/127.0.0.1/2020/01/Photo-6-terra-dei-fuochi--scaled.jpg/w=1880);
+}
+
+.second {
+    background-image: url(https://static.toiimg.com/thumb/msid-69245871,width-1280,height-720,resizemode-4/69245871.jpg);
+}
+
+.third {
+    background-image: url(https://www.telegraph.co.uk/content/dam/world-news/2023/11/13/TELEMMGLPICT000356557807_16998631964760_trans_NvBQzQNjv4BqLf6XVudQ0d-fF3pHUPFzEAeAINc0hTrVyV1td0u1hTM.jpeg);
+}
+
+.city {
+    background-color: rgba(255, 225, 0, 0.5);
+    border: 3px solid green;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.layover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(158, 0, 0, 0.3);
+}
+
+header {
+    width: fit-content;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border: 3px solid red;
+    border-radius: 10px ;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: sticky;
+    top: 0;
+    z-index: 1
+}

@@ -1,0 +1,66 @@
+body {
+    background-color: bisque;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: aliceblue;
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    position: sticky;
+    top: 25px;
+    border: 1px solid black;
+}
+
+.left {
+    background-color: aqua;
+}
+
+.center {
+    background-color: cornflowerblue;
+}
+
+.right {
+    background-color: darkolivegreen;
+}
+
+.left, .right {
+    width: 25%;
+}
+
+.center {
+    width: 50%;
+}
+
+main > div {
+    float: left;
+}
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+footer {
+    background-color: aliceblue;
+    text-align: center;
+    line-height: 10vh;
+    border: 1px solid black;
+    position: sticky;
+    bottom: 25px;
+}

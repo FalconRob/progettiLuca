@@ -1,0 +1,61 @@
+.relativered {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.relativeblue {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    border: 1px solid black;
+    background-color: blue;
+    position: relative;
+    left: 50px;
+}
+
+.relativegreen  {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    border: 1px solid black;
+    background-color: green;
+    position: relative;
+    left: 100px;
+}
+
+.absolute {
+    width: 800px;
+    height: 800px;
+    background-color: chocolate;
+    position: relative;
+}
+
+.absolutered {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.absoluteblue {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    border: 1px solid black;
+    background-color: blue;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.absolutegreen  {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    border: 1px solid black;
+    background-color: green;
+}

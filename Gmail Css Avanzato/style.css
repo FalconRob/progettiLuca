@@ -1,0 +1,67 @@
+body {
+    background-image: url(https://cdna.artstation.com/p/assets/covers/images/012/479/782/large/joaquin-caicedo-rendereddie2k.jpg?1535001152);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+.general {
+    text-align: left;
+    width: 50%;
+    padding-left: 25%;
+    margin: 0px;
+}
+
+h1 {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+hr {
+    border-color: crimson;
+}
+
+h1 > span {
+    background-color: rgb(0, 117, 59);
+    border-radius: 30px;
+}
+
+.email.unread {
+    background-color: rgba(136, 42, 5, 0.5);
+    overflow: hidden;
+}
+
+.email.read {
+    background-color: rgba(173, 99, 70, 0.5);
+    overflow: hidden;
+}
+
+.subject {
+    width: 23%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px;
+}
+
+.subject:before {
+    content: "\2605";
+}
+
+.preview {
+    width: 70%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px;
+    color: rgba(240, 255, 255, 0.6);
+}
+
+footer > h3 {
+    text-align: center;
+    border-radius: 10px;
+    font-style:
+    italic; color: black;
+}

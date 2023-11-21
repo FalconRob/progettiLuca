@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registrazione</title>
+    </head>
+    <body>
+        <h1>Registrazione sito internet</h1>
+        <fieldset>
+            <h4>Tutti i campi sono obligatori</h4>
+            
+            <form action="backend">
+                <div>
+                    <label for="firstname">Nome</label>
+                    <input type="text" name="firstname" id="" placeholder="nome" minlength=2 required>
+                </div>
+
+                <div>
+                    <label for="lastname">Cognome</label>
+                    <input type="text" name="lastname" id="" placeholder="cognome" minlength=2 required>
+                </div>
+                
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="" placeholder="email" required>
+                </div>
+                
+                <div>
+                    <label for="regione">Regione</label>
+                    <select name="regione" id="" required>
+                        <option value=""></option>
+                        <option value="abruzzo">Abruzzo</option>
+                        <option value="molise">Molise</option>
+                        <option value="lazio">Lazio</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="age">Età</label>
+                    <input type="radio" name="age" id="" required>0-18
+                    <input type="radio" name="age" id="" required>18+
+                </div>
+                
+                <div>
+                <input type="checkbox" name="accept" id="" required>Accetta termini e condizioni
+                </div>
+
+                <input type="submit" value="Invia">
+            </form>
+        
+    </body>
+</html>

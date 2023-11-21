@@ -1,0 +1,21 @@
+#saluto{
+    color: red;
+}
+
+#saluto2{
+    color: green;
+}
+
+p{
+    color: blue;
+    font-size: larger;
+    font-style: oblique;
+}
+
+.classe1{
+    color: chartreuse;
+}
+
+div{
+    border: 5px dotted brown;
+}

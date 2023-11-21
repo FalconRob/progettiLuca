@@ -1,0 +1,36 @@
+.mainfield {
+    width: 300px;
+    height: 500px;
+    background-color: red;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.row {
+    text-align: center;
+}
+
+.discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: large;
+    border-radius: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.high {
+    background-color: black;
+    color: aliceblue;
+}
+
+.low {
+    background-color: lightblue;
+}
+
+img {
+    width: 250px;
+    padding-top: 50px;
+}

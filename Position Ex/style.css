@@ -1,0 +1,33 @@
+.mainfield {
+    width: 2000px;
+    height: 800px;
+    background-color: burlywood;
+    border: 3px solid black;
+}
+
+.field {
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    display: inline-block;
+    position: relative;
+}
+
+.square  {
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    border: 1px solid red;
+}
+
+.A .second {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.B .second {
+    position: relative;
+    left: 20px;
+}

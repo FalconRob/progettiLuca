@@ -1,0 +1,25 @@
+.quadrato {
+    font-family: fantasy;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-top: 10px solid black;
+    border-bottom: 20px solid black;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 50px 20px;
+    display: inline-block;
+}
+
+.quadrato1 {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-top: 10px solid black;
+    border-bottom: 20px solid black;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 50px 20px;
+    display: inline-block;
+}
