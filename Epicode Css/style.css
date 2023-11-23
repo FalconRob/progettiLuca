@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100vw;
+    padding: 20px;
+}
+
+.main-image {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    height: 500px;
+}
+
+h1 {
+    font-family: 'Ephesis', cursive;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Ephesis', cursive;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    font-weight: 600;
+    font-style: italic;
+}
+
+h6 {
+    padding: 22px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background-image: linear-gradient(to bottom right, rgb(0, 128, 117), rgb(214, 214, 128)) ;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul > li a {
+    text-decoration: none;
+}
+
+ul > li {
+    padding: 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+a:visited {
+    color: rgb(0, 128, 117);
+}
+
+footer {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    font-family: 'Ephesis', cursive;
+    text-align: center;
+}
